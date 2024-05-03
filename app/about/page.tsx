@@ -55,7 +55,7 @@ export default function About() {
             </p>
           </div>
           <div className="relative w-[50%] h-[622px] shrink-0">
-            <Image src="/assets/image (1).png" alt="" fill sizes="100vw" />
+            <Image src="/assets/image (2).png" alt="" fill sizes="100vw" />
           </div>
         </div>
       </div>
