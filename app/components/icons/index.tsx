@@ -439,3 +439,173 @@ export const PArrowRight = () => {
     </svg>
   );
 };
+
+export const Contact = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      <path
+        d="M12.1188 12.78C12.0488 12.77 11.9588 12.77 11.8788 12.78C10.1188 12.72 8.71875 11.28 8.71875 9.50998C8.71875 7.69998 10.1788 6.22998 11.9988 6.22998C13.8088 6.22998 15.2788 7.69998 15.2788 9.50998C15.2688 11.28 13.8788 12.72 12.1188 12.78Z"
+        stroke="#334155"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M18.7378 19.3801C16.9578 21.0101 14.5978 22.0001 11.9978 22.0001C9.39781 22.0001 7.03781 21.0101 5.25781 19.3801C5.35781 18.4401 5.95781 17.5201 7.02781 16.8001C9.76781 14.9801 14.2478 14.9801 16.9678 16.8001C18.0378 17.5201 18.6378 18.4401 18.7378 19.3801Z"
+        stroke="#334155"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+        stroke="#334155"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const ShippingIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
+      fill="none"
+    >
+      <path
+        d="M12.1406 15.2701V13.3099C12.1406 10.7899 14.1806 8.73999 16.7106 8.73999H18.6706"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M5.61719 8.75H7.57721C10.0972 8.75 12.1472 10.79 12.1472 13.32V13.97V17.45"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M7.14374 6.94995L5.34375 8.74995L7.14374 10.55"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M16.8594 6.94995L18.6594 8.74995L16.8594 10.55"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M9 22.2H15C20 22.2 22 20.2 22 15.2V9.19995C22 4.19995 20 2.19995 15 2.19995H9C4 2.19995 2 4.19995 2 9.19995V15.2C2 20.2 4 22.2 9 22.2Z"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const PaymentIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
+      fill="none"
+    >
+      <path
+        d="M3.92969 16.0792L15.8797 4.12915"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M11.1016 18.4791L12.3016 17.2791"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M13.7969 15.7887L16.1869 13.3987"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M3.60127 10.439L10.2413 3.79895C12.3613 1.67895 13.4213 1.66895 15.5213 3.76895L20.4313 8.67895C22.5313 10.779 22.5213 11.839 20.4013 13.959L13.7613 20.599C11.6413 22.719 10.5813 22.729 8.48127 20.629L3.57127 15.719C1.47127 13.619 1.47127 12.569 3.60127 10.439Z"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M2 22.1985H22"
+        stroke="#4B5563"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Size = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      fill="none"
+    >
+      <path
+        d="M12.25 5.25V1.75H8.75"
+        stroke="#475569"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M1.75 8.75V12.25H5.25"
+        stroke="#475569"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M12.25 1.75L7.875 6.125"
+        stroke="#475569"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M6.125 7.875L1.75 12.25"
+        stroke="#475569"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
