@@ -3,7 +3,7 @@ import Image from "next/image";
 export const FashionAd = () => {
   return (
     <>
-      <div className="py-[52px] container mx-auto flex">
+      <div className="py-[52px] container mx-auto hidden md:flex">
         <div className="px-[120px] py-[49px] flex items-center  rounded-[24px] bg-[#F5F5F5] min-h-[497px] w-full relative overflow-hidden">
           <div className="absolute w-[55%] h-full top-0 right-0">
             <div className="relative w-full h-full">

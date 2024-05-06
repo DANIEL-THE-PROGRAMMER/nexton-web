@@ -5,18 +5,18 @@ export default function ProductDetail() {
   return (
     <>
       <div className="pt-[40px]">
-        <div className="flex container mx-auto">
-          <div className="flex gap-[32px] w-full items-start">
+        <div className="flex container w-[90%] mx-auto">
+          <div className="flex gap-[32px] w-full items-start md:flex-row flex-col">
             <div className="grow-[1] flex flex-col">
-              <div className="flex grow-[1] gap-[24px]">
-                <div className="w-[180px] flex flex-col shrink-0 gap-[16px]">
-                  <div className="flex rounded-[16px] overflow-hidden relative gap-[16px] h-[187px]">
+              <div className="flex md:flex-row flex-col grow-[1] gap-[24px]">
+                <div className="md:w-[180px] w-full flex flex-row md:flex-col shrink-0 gap-[16px] order-2">
+                  <div className="flex grow md:grow-0 rounded-[16px] overflow-hidden relative gap-[16px] h-[88px] md:h-[187px]">
                     <Image src="/assets/image.png" alt="" fill sizes="true" />
                   </div>
-                  <div className="flex rounded-[16px] overflow-hidden relative gap-[16px] h-[187px]">
+                  <div className="flex grow md:grow-0 rounded-[16px] overflow-hidden relative gap-[16px] h-[88px] md:h-[187px]">
                     <Image src="/assets/image.png" alt="" fill sizes="true" />
                   </div>
-                  <div className="flex rounded-[16px] overflow-hidden relative gap-[16px] h-[187px]">
+                  <div className="flex grow md:grow-0 rounded-[16px] overflow-hidden relative gap-[16px] h-[88px] md:h-[187px]">
                     <Image
                       src="/assets/product-27-3 1.png"
                       alt=""
@@ -24,7 +24,7 @@ export default function ProductDetail() {
                       sizes="true"
                     />
                   </div>
-                  <div className="flex rounded-[16px] overflow-hidden relative gap-[16px] h-[187px]">
+                  <div className="flex grow md:grow-0 rounded-[16px] overflow-hidden relative gap-[16px] h-[88px] md:h-[187px]">
                     <Image
                       src="/assets/product-27-4 1.png"
                       alt=""
@@ -33,7 +33,7 @@ export default function ProductDetail() {
                     />
                   </div>
                 </div>
-                <div className="grow-[1] rounded-[16px] overflow-hidden relative">
+                <div className="grow-[1] order-1 md:w-auto w-full rounded-[16px] overflow-hidden relative h-[370px] md:h-auto">
                   <Image src="/assets/image.png" alt="" fill sizes="true" />
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default function ProductDetail() {
                 </div>
               </div>
             </div>
-            <div className="w-[560px] min-h-[463px] shrink-0 rounded-[16px] border-[#E5E7EB] border-[1px] bg-[rgba(255,255,255,0.00)] flex flex-col p-[33px] gap-[32px]">
+            <div className="w-[560px] min-h-[463px] shrink-0 rounded-[16px] border-[#E5E7EB] border-[1px] bg-[rgba(255,255,255,0.00)] md:flex hidden flex-col p-[33px] gap-[32px]">
               <div className="flex justify-between items-start">
                 <div className="flex justify-between ">
                   <span className="flex items-center">
@@ -105,16 +105,16 @@ export default function ProductDetail() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto mt-[96px] flex gap-[40px] flex-col pb-[72px]">
+        <div className="container w-[90%] mx-auto mt-[96px] flex gap-[40px] flex-col pb-[72px]">
           <h4>
-            <span className="text-[#111827] text-[36px] font-poppins leading-[40px] font-semibold">
+            <span className="text-[#111827] text-24px] md:text-[36px] font-poppins leading-[32px] md:leading-[40px] font-semibold">
               Recommendations.
             </span>
           </h4>
-          <div className="flex gap-[20px]">
+          <div className="flex w-[100%] md:w-auto flex-row grow-[1] gap-[20px] shrink-0 overflow-auto">
             {Array.from({ length: 4 }, (inx, index) => {
               return (
-                <div className="flex flex-col grow-[1] gap-[20px]" key={index}>
+                <div className="flex flex-col grow-[1] w-full md:w-auto gap-[20px] shrink-0" key={index}>
                   <div className="h-[390px] relative w-full">
                     <Image
                       src="/assets/image.png"

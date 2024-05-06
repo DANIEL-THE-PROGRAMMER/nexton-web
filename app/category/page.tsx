@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Categories() {
   return (
     <div className="">
-      <div className="container mx-auto flex gap-[20px] pt-[40px]">
-        <div className="flex flex-col pr-[40px] w-[309px] shrink-0">
+      <div className="container w-[90%] mx-auto flex gap-[20px] pt-[40px]">
+        <div className="hidden md:flex flex-col pr-[40px] w-[309px] shrink-0">
           <div className="flex flex-col gap-[23px] pb-[40px] border-b-[1px] border-b-[#94A3B8]">
             <h5 className="font-poppins text-[#111827] leading-[20px] text-[18px] font-semibold">
               Categories
@@ -27,8 +27,8 @@ export default function Categories() {
             </div>
           </div>
         </div>
-        <div className="grow-[1] flex gap-[52px] flex-col">
-          <div className="flex gap-[20px]">
+        <div className="grow-[1] md:w-auto w-full flex gap-[52px] flex-col">
+          <div className="flex gap-[20px] md:flex-row flex-col">
             {Array.from({ length: 3 }, (inx, index) => {
               return (
                 <div className="flex flex-col grow-[1] gap-[20px]" key={index}>
@@ -63,7 +63,7 @@ export default function Categories() {
               );
             })}
           </div>
-          <div className="flex gap-[20px]">
+          <div className="flex gap-[20px] md:flex-row flex-col">
             {Array.from({ length: 3 }, (inx, index) => {
               return (
                 <div className="flex flex-col grow-[1] gap-[20px]" key={index}>
@@ -98,7 +98,7 @@ export default function Categories() {
               );
             })}
           </div>
-          <div className="flex gap-[20px]">
+          <div className="md:flex hidden gap-[20px]">
             {Array.from({ length: 3 }, (inx, index) => {
               return (
                 <div className="flex flex-col grow-[1] gap-[20px]" key={index}>
@@ -133,7 +133,7 @@ export default function Categories() {
               );
             })}
           </div>
-          <div className="flex justify-end font-poppins">
+          <div className="flex justify-center md:justify-end font-poppins">
             <div className="flex items-center">
               <span className="w-[12px] h-[12px] flex items-center justify-center mr-[12px]">
                 <PArrowLeft />

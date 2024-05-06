@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import { Nav } from "./components/nav";
+import { Footer } from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${inter.className} ${poppins.variable}`}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

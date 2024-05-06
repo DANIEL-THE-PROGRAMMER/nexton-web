@@ -4,21 +4,24 @@ import { Star } from "../icons";
 export const Products = () => {
   return (
     <>
-      <div className="flex container mx-auto flex-col gap-[40px] font-poppins py-[88px]">
+      <div className="flex w-[90%] container mx-auto flex-col gap-[40px] font-poppins py-[52px] md:py-[88px]">
         <h4>
-          <span className="text-[#111827] text-[36px] font-poppins leading-[40px] font-semibold">
+          <span className="text-[#111827] text-[24px] md:text-[36px] font-poppins leading-[32px] md:leading-[40px] font-semibold">
             Recommendations.
           </span>
-          <span className="text-[rgba(75,85,99,0.80)] text-[36px] font-poppins leading-[40px] font-semibold">
+          <span className="text-[rgba(75,85,99,0.80)] text-[36px] font-poppins leading-[40px] hidden md:inline-block font-semibold">
             {" "}
             Best matching products for you
           </span>
         </h4>
-        <div className="flex gap-[20px]">
+        <div className="flex gap-[20px] overflow-auto">
           {Array.from({ length: 4 }, (inx, index) => {
             return (
-              <div className="flex flex-col grow-[1] gap-[20px]" key={index}>
-                <div className="h-[390px] relative w-full">
+              <div
+                className="flex w-[100%] md:w-auto flex-col grow-[1] gap-[20px] shrink-0"
+                key={index}
+              >
+                <div className="h-[430px] md:h-[390px] relative w-full">
                   <Image
                     src="/assets/image.png"
                     alt=""
@@ -50,21 +53,24 @@ export const Products = () => {
           })}
         </div>
       </div>
-      <div className="flex container mx-auto flex-col gap-[40px] font-poppins py-[88px]">
+      <div className="flex w-[90%] container mx-auto flex-col gap-[40px] font-poppins py-[88px]">
         <h4>
-          <span className="text-[#111827] text-[36px] font-poppins leading-[40px] font-semibold">
+          <span className="text-[#111827] text-[24px] md:text-[36px] font-poppins leading-[32px] md:leading-[40px] font-semibold">
             Best Sellers.
           </span>
-          <span className="text-[rgba(75,85,99,0.80)] text-[36px] font-poppins leading-[40px] font-semibold">
+          <span className="text-[rgba(75,85,99,0.80)] text-[36px] font-poppins leading-[40px] hidden md:inline-block font-semibold">
             {" "}
             Best selling of the month
           </span>
         </h4>
-        <div className="flex gap-[20px]">
+        <div className="flex gap-[20px] overflow-auto">
           {Array.from({ length: 4 }, (inx, index) => {
             return (
-              <div className="flex flex-col grow-[1] gap-[20px]" key={index}>
-                <div className="h-[390px] relative w-full">
+              <div
+                className="flex w-[100%] md:w-auto flex-col grow-[1] gap-[20px] shrink-0"
+                key={index}
+              >
+                <div className="h-[430px] md:h-[390px] relative w-full">
                   <Image
                     src="/assets/image.png"
                     alt=""
